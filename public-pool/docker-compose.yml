@@ -47,7 +47,7 @@ services:
     restart: on-failure
 
   widget-server:
-    image: ghcr.io/getumbrel/umbrel-public-pool-widget:v1.0.0@sha256:b8861a5b79471377f1bfbf6733f11350970b482103d4ef4185f372350ffff6b3
+    image: ghcr.io/copy2018/umbrel-public-pool-widget:1.1@sha256:e382ac5b18860e2a5761036ebc171758bf4b6e6b0e4e44f4f90048a74c9c3eea
     user: "1000:1000"
     environment:
       - PUBLIC_POOL_API_URL=http://public-pool_proxy_1/api/pool
